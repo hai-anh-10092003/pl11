@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TỜ KHAI ĐĂNG KÝ SÁNG CHẾ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Phụ lục I - Mẫu số 01</h2>
+      <h1>TỜ KHAI<br />ĐĂNG KÝ SÁNG CHẾ</h1>
+      <p><strong>Kính gửi:</strong> CỤC SỞ HỮU TRÍ TUỆ</p>
+
+      <!-- PHẦN 1 -->
+      <fieldset>
+        <legend>Người nộp đơn đề nghị:</legend>
+        <label
+          ><input type="checkbox" /> Bằng độc quyền sáng chế (bản giấy)</label
+        >
+        <label
+          ><input type="checkbox" /> Bằng độc quyền giải pháp hữu ích (bản
+          giấy)</label
+        >
+      </fieldset>
+
+      <fieldset>
+        <legend>① NGUỒN GỐC ĐƠN</legend>
+        <div class="two-columns">
+          <div class="column">
+            <label
+              ><input type="checkbox" /> Đơn này được nộp trên cơ sở PCT số:
+              <input type="text"
+            /></label>
+            <label> Công bố quốc tế số: <input type="text" /></label>
+            <label> Ngày nộp quốc tế: <input type="date" /></label>
+            <label
+              ><input type="checkbox" /> Có sửa đổi, bổ sung tại thời điểm vào
+              giai đoạn quốc gia</label
+            >
+          </div>
+          <div class="column">
+            <label
+              ><input type="checkbox" /> Đơn tách: <input type="date"
+            /></label>
+            <label
+              ><input type="checkbox" /> Đơn chuyển đổi: <input type="date"
+            /></label>
+            <label><input type="checkbox" /> Sáng chế từ nhiệm vụ KH&CN</label>
+            <label> Tên nhiệm vụ: <input type="text" /></label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>② TÊN SÁNG CHẾ</legend>
+        <input type="text" style="width: 100%" />
+      </fieldset>
+
+      <fieldset>
+        <legend>PHÂN LOẠI SÁNG CHẾ QUỐC TẾ (IPC)</legend>
+        <input type="text" style="width: 100%" />
+      </fieldset>
+
+      <fieldset>
+        <legend>NGƯỜI NỘP ĐƠN</legend>
+        <label>Họ tên: <input type="text" /></label>
+        <label>CCCD: <input type="text" /></label>
+        <label>Điện thoại: <input type="text" /></label>
+        <label>Email: <input type="email" /></label>
+        <label>Địa chỉ: <textarea></textarea></label>
+      </fieldset>
+
+      <!-- PHẦN 2 -->
+      <fieldset>
+        <legend>③ ĐẠI DIỆN NGƯỜI NỘP ĐƠN</legend>
+        <label
+          ><input type="checkbox" /> Là người đại diện theo pháp luật</label
+        >
+        <label><input type="checkbox" /> Là tổ chức dịch vụ</label>
+        <label>Tên đại diện: <input type="text" /></label>
+        <label>Email: <input type="email" /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>④ TÁC GIẢ</legend>
+        <label>Họ tên: <input type="text" /></label>
+        <label>Quốc tịch: <input type="text" /></label>
+        <label>Địa chỉ: <input type="text" /></label>
+        <label>Điện thoại: <input type="text" /></label>
+        <label>Email: <input type="email" /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>⑤ QUYỀN ƯU TIÊN</legend>
+        <label><input type="checkbox" /> Theo đơn đầu tiên tại Việt Nam</label>
+        <label><input type="checkbox" /> Theo Công ước Paris</label>
+        <label>Số đơn: <input type="text" /></label>
+        <label>Ngày nộp: <input type="date" /></label>
+        <label>Nước nộp đơn: <input type="text" /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>⑥ THẨM ĐỊNH NỘI DUNG</legend>
+        <label><input type="checkbox" /> Có yêu cầu thẩm định nội dung</label>
+      </fieldset>
+
+      <!-- PHẦN 3 -->
+      <fieldset>
+        <legend>⑦ PHÍ, LỆ PHÍ</legend>
+        <label><input type="checkbox" /> Lệ phí nộp đơn</label>
+        <label><input type="checkbox" /> Phí thẩm định hình thức</label>
+        <label><input type="checkbox" /> Phí thẩm định nội dung</label>
+        <label><input type="checkbox" /> Phí công bố đơn</label>
+        <label><input type="checkbox" /> Phí tra cứu thông tin</label>
+        <label>Tổng phí: <input type="text" /></label>
+      </fieldset>
+
+      <!-- PHẦN 4 -->
+      <fieldset>
+        <legend>⑧ CÁC TÀI LIỆU TRONG ĐƠN</legend>
+        <label><input type="checkbox" /> Bản mô tả</label>
+        <label><input type="checkbox" /> Bản yêu cầu bảo hộ</label>
+        <label><input type="checkbox" /> Bản vẽ (nếu có)</label>
+        <label><input type="checkbox" /> Văn bản ủy quyền</label>
+        <label><input type="checkbox" /> Tài liệu chứng minh quyền</label>
+        <label><input type="checkbox" /> Giấy chuyển nhượng</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>⑨ CAM KẾT</legend>
+        <p>Tôi cam đoan mọi thông tin trên là đúng sự thật.</p>
+        <label>Ngày khai: <input type="date" /></label>
+        <label>Người ký tên: <input type="text" /></label>
+      </fieldset>
+    </div>
+  </body>
+</html>
